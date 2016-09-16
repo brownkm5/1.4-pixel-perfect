@@ -133,3 +133,32 @@ h2{
   font-size: 30px;
   text-transform: uppercase;
 }
+.body{
+  margin-top: 30px;
+  /*height: 1008px;*/
+}
+
+.jerry{
+  width: 60px;
+  height: 60px;
+}
+.left{
+  display: inline-block;
+  margin-left: 163px;
+  position: relative;
+  width: 613px;
+}
+
+.right{
+  display: inline-block;
+  margin-right: 163px;
+  position: absolute;
+  width: 278px;
+  vertical-align: middle;
+  padding-left: 45px;
+  text-align: left;
+}
+
+ul{
+  list-style: none;
+}
