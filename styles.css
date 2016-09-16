@@ -130,12 +130,53 @@ h3{
 
 h2{
   font-family:'Oswald';
-  font-size: 30px;
+  font-size: 65px;
   text-transform: uppercase;
+  position: relative;
+  top: -4px;
+  left: -1px;
+  letter-spacing: -1.3px;
+}
+.bottom{
+  font-family:'Oswald';
+  font-size: 65px;
+  text-transform: uppercase;
+  position: relative;
+  top: -85px;
+  margin: 0px;
+  letter-spacing: -.6px;
+}
+.subtitle{
+  padding-left: 34.2px;
+  font-family: 'Open Sans';
+  position: relative;
+  bottom: 5px;
+}
+.name{
+  font-size: 13px;
+}
+.marie{
+  letter-spacing: -.5px;
+}
+.date{
+  padding-left: 10px;
+  font-size: 13px;
+}
+.date1{
+  padding-left: 4px;
+  text-decoration: underline;
+}
+.text{
+  position: relative;
+  top:-107px;
+}
+.paragraphs{
+  position: relative;
+  top: 11px;
+  font-size: 16px;
 }
 .body{
-  margin-top: 30px;
-  /*height: 1008px;*/
+  position: relative;
 }
 
 .jerry{
@@ -152,7 +193,7 @@ h2{
 .right{
   display: inline-block;
   margin-right: 163px;
-  position: absolute;
+  position: relative;
   width: 278px;
   vertical-align: middle;
   padding-left: 45px;
