@@ -88,7 +88,7 @@ nav li{
   letter-spacing: -.5px;
 }
 .banner:hover{
-  opacity: .75;
+  opacity: 1;
 }
 .logo{
   position: relative;
