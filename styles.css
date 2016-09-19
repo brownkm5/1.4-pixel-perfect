@@ -14,7 +14,7 @@ body{
 
 header{
   height: 523px;
-  background-image: url("http://unsplash.it/1300/523");
+  background-image: url(images/waves.jpg);
   position: relative;
 }
 header:before{
@@ -87,7 +87,9 @@ nav li{
   top: -8px;
   letter-spacing: -.5px;
 }
-
+.banner:hover{
+  opacity: .75;
+}
 .logo{
   position: relative;
   top: 10px;
@@ -150,10 +152,20 @@ h2{
   padding-left: 34.2px;
   font-family: 'Open Sans';
   position: relative;
-  bottom: 5px;
+  bottom: 33px;
+}
+h4 img{
+  width: 22px;
+  height: 23px;
+  display: inline-block;
+  position: relative;
+  left: 4px;
+  top: -7px;
 }
 .name{
   font-size: 13px;
+  color: rgb(2, 108,	171);
+  word-spacing: -1.5px;
 }
 .marie{
   letter-spacing: -.5px;
@@ -161,6 +173,7 @@ h2{
 .date{
   padding-left: 10px;
   font-size: 13px;
+  color: rgb(150,	166,	176);
 }
 .date1{
   padding-left: 4px;
@@ -172,17 +185,126 @@ h2{
 }
 .paragraphs{
   position: relative;
-  top: 11px;
   font-size: 16px;
+  line-height: 25px;
+}
+.p1{
+  position: relative;
+  top: -18px;
+}
+.p2{
+  position: relative;
+  top: -4px;
+}
+.p3{
+  position: relative;
+  top: 21px;
+  line-height: 26px;
+}
+.p4{
+  position: relative;
+  top: 31px;
+}
+
+.woah{
+  font-size: 28.3px;
+  text-transform: uppercase;
+  color: rgb(2,	110,	174);
+  padding-left: 17px;
+  font-family: 'Open Sans';
+  letter-spacing: -.7px;
+  margin-left: 6px;
+  position: relative;
+  top: 7px;
+}
+.border{
+  height: 57px;
+  border-left: 2px solid rgb(211, 211, 211);
+  position: absolute;
+  top: 207.5px;
+  left: 6px;
+}
+.thats{
+  letter-spacing: -1.5px;
+}
+.radical{
+  letter-spacing: .3px;
 }
 .body{
   position: relative;
 }
-
-.jerry{
-  width: 60px;
-  height: 60px;
+.buttons{
+  font-size: 14px;
+  font-family: 'Open Sans';
 }
+
+.comments{
+  position: relative;
+  top: 35px;
+  left: 36.3px;
+  padding: 5.5px 8.5px;
+  border-style: none;
+  background-color: rgb(154,	171,	181);
+}
+.comments:hover{
+  background-color: rgb(75, 93, 56);
+}
+.later{
+  position: relative;
+  top: 35px;
+  left: 75.5px;
+  border-style: none;
+  background-color: rgb(154,	171,	181);
+  padding: 5.6px 12.3px;
+}
+.later:hover{
+  background-color: rgb(75, 93, 56);
+}
+.share{
+  position: relative;
+  top: 35px;
+  left: 115.6px;
+  border-style: none;
+  background-color: rgb(2,	98,	155);
+  padding: 5.5px 10px;
+}
+.share:hover{
+  background-color: rgb(75, 93, 56);
+}
+.fa-comment{
+  position: relative;
+  top: 5px;
+  left: 3px;
+  width: 33px;
+  height: 30px;
+  color: white;
+  background-color: rgb(93,	104,	110);
+  padding-top: 6.5px;
+  padding-left: 8.5px;
+}
+.fa-cloud-upload{
+  position: relative;
+  top: 5px;
+  left: 134px;
+  width: 33px;
+  height: 30px;
+  color: white;
+  background-color: rgb(93,	104,	110);
+  padding-top: 6.5px;
+  padding-left: 7.5px;
+}
+.fa-share-square{
+  position: relative;
+  top: 5px;
+  left: 235px;
+  width: 33px;
+  height: 30px;
+  color: white;
+  background-color: rgb(4,	51,	78);
+  padding-top: 6.5px;
+  padding-left: 9.5px;
+}
+
 .left{
   display: inline-block;
   margin-left: 163px;
@@ -192,14 +314,188 @@ h2{
 
 .right{
   display: inline-block;
-  margin-right: 163px;
-  position: relative;
+  /*margin-right: 163px;*/
+  position: absolute;;
   width: 278px;
   vertical-align: middle;
-  padding-left: 45px;
-  text-align: left;
+  margin-left: 85px;
+  top: 85px;
+}
+.jerry{
+  width: 84px;
+  height: 84px;
+  position: relative;
+  top: -2px;
+  left: 98px;
+}
+.social{
+  text-align: center;
+  font-family: 'Open Sans';
+}
+.social span{
+  font-size: 16px;
+  color:rgb(0,	116,	174);
+  text-transform: uppercase;
+  position: relative;
+  top: 5px;
+  left: 3.4px;
+}
+.social a{
+  font-size: 13px;
+  color: rgb(159,	177,	188);
+  text-decoration: none;
+  padding: 0px 7px;
+  position: relative;
+  top: 3px;
+  left: 1px;
+}
+.paddle{
+  width: 278px;
+  height: 300px;
+  position: relative;
+  top: 53px;
+}
+.about-this-ad{
+  color: rgb(159,	176,	186);
+  text-align: right;
+  position: relative;
+  top: 55px;
+  left: 196px;
+  text-decoration: underline;
+  font-size: 13px;
+}
+.sidebar {
+  list-style: none;
+  padding-left: 0px;
+  position: relative;
+  top: 85px;
+}
+.sidebar-title{
+  text-transform: uppercase;
+  font-family: 'Oswald';
+  font-size: 18px;
+  color: rgb(0,	74,	149);
+}
+.side-text{
+  font-size: 13px;
+  font-family: 'Open Sans';
+  line-height: 24px;
+  position: relative;
+  top: -10px;
+}
+.chic{
+  text-decoration: underline;
+  color: rgb(161,	178,	189);
+}
+.aliqua{
+  color: rgb(2,	110,	174);
+  text-decoration: underline;
+}
+img:hover{
+  opacity: .5;
+}
+footer{
+  text-align: center;
+}
+h5{
+  font-size: 64px;
+  font-family: 'Oswald';
+  color: rgb(4,	52,	80);
+  font-weight: lighter;
+  margin: 0px;
+  text-transform: uppercase;
+  position: relative;
+  left: 13px;
+  top: -9px;
 }
 
-ul{
-  list-style: none;
+.footer-image{
+  margin: 0px;
+  padding: 0px;
+  font-size: 0px;
+  width: 319px;
+  height: 330px;
+  float: left;
+  position: relative;
+  top: 19px;
+  border: none;
+}
+
+.one{
+  font-size: 30px;
+  font-family: 'Oswald';
+  position: absolute;
+  bottom: 33px;
+  left: 1px;
+  background-color: rgba(95,	161,	201, .5);
+  height: 330px;
+  width: 319px;
+  display: inline-block;
+  text-align: left;
+  text-transform: uppercase;
+  padding-top: 280px;
+  padding-left: 13px;
+}
+.one:hover{
+  background-color: rgba(0,0,0,0);
+  color: rgb(255,255,255);
+}
+.two{
+  font-size: 30px;
+  font-family: 'Oswald';
+  position: absolute;
+  bottom: 33px;
+  left: 319.5px;
+  background-color: rgba(95,	161,	201, .5);
+  height: 330px;
+  width: 318px;
+  display: inline-block;
+  text-align: left;
+  text-transform: uppercase;
+  padding-top: 280px;
+  padding-left: 21px;
+}
+.two:hover{
+  background-color: rgba(0,0,0,0);
+  color: rgb(255,255,255);
+}
+.three{
+  font-size: 30px;
+  font-family: 'Oswald';
+  position: absolute;
+  bottom: 33px;
+  right: 320px;
+  background-color: rgba(95,	161,	201, .5);
+  height: 330px;
+  width: 319px;
+  display: inline-block;
+  text-align: left;
+  text-transform: uppercase;
+  padding-top: 242px;
+  padding-left: 30px;
+  line-height: 37px;
+}
+.three:hover{
+  background-color: rgba(0,0,0,0);
+  color: rgb(255,255,255);
+}
+.four{
+  font-size: 30px;
+  font-family: 'Oswald';
+  position: absolute;
+  bottom: 33px;
+  right: 1px;
+  background-color: rgba(95,	161,	201, .5);
+  height: 330px;
+  width: 319px;
+  display: inline-block;
+  text-align: left;
+  text-transform: uppercase;
+  vertical-align: bottom;
+  padding-top: 280px;
+  padding-left: 37px;
+}
+.four:hover{
+  background-color: rgba(0,0,0,0);
+  color: rgb(255,255,255);
 }
